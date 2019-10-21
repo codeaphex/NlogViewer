@@ -43,16 +43,19 @@ jobs:
           echo %nuspecpath%
           echo ::set-env name=NUSPECPATH::%nuspecpath%
 
-      - name: install nuget
-        run: choco install nuget.commandline -y 
+      - name: Install nuget
+        run: choco install nuget.commandline -y
+        
+      - name: NuGet restore
+        run: nuget restore
 
-      - name: nuget pack
+      - name: NuGet pack
         run: |
           echo %NUSPECPATH%
           echo %SUFFIX%
           if defined SUFFIX (nuget pack %NUSPECPATH% -build -Suffix %SUFFIX% -Prop Configuration=Release -OutputDirectory "D:\\package\\")else (nuget pack %NUSPECPATH% -build -Prop Configuration=Release -OutputDirectory "D:\\package\\")
 
-      - name: nuget publish
+      - name: NuGet publish
         run: nuget push D:\package\%REPO_NAME%.%TAG_NAME%.nupkg ${{secrets.NUGET_TOKEN}} -Source https://api.nuget.org/v3/index.json
         env:
           REPO_NAME: ${{ github.event.repository.name }}
