@@ -24,5 +24,57 @@ namespace SerilogViewerSample
         {
             InitializeComponent();
         }
+
+        private void Send_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SendWithContext_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnLogMessageItemAdded(object o, EventArgs Args)
+        {
+
+        }
+
+        private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void TopScroll_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void BottomScroll_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void AutoScroll_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void AutoScroll_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        private void BackgroundSending_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackgroundSending_Unchecked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SendLogs(object obj)
+        {
+
+        }
     }
 }
