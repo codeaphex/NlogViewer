@@ -12,9 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.github\workflows\release_nuget_workflow.yaml = .github\workflows\release_nuget_workflow.yaml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogViewer", "SerilogViewer\SerilogViewer.csproj", "{3236221A-7A3F-42D9-8333-010D24949DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogViewer", "SerilogViewer\SerilogViewer.csproj", "{3236221A-7A3F-42D9-8333-010D24949DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogViewerSample", "SerilogViewerSample\SerilogViewerSample.csproj", "{6F87F47C-9F71-4DB1-AFF7-89943190706F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogViewerSample", "SerilogViewerSample\SerilogViewerSample.csproj", "{6F87F47C-9F71-4DB1-AFF7-89943190706F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogViewer_NET", "SerilogViewer_NET\SerilogViewer_NET.csproj", "{48C2F958-22B7-42E6-A2D9-20A3EACB43E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerilogViewerSample_NET", "SerilogViewerSample_NET\SerilogViewerSample_NET.csproj", "{7262E02C-F044-40AD-B9E2-8827209B9F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,14 @@ Global
 		{6F87F47C-9F71-4DB1-AFF7-89943190706F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F87F47C-9F71-4DB1-AFF7-89943190706F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F87F47C-9F71-4DB1-AFF7-89943190706F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C2F958-22B7-42E6-A2D9-20A3EACB43E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C2F958-22B7-42E6-A2D9-20A3EACB43E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C2F958-22B7-42E6-A2D9-20A3EACB43E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C2F958-22B7-42E6-A2D9-20A3EACB43E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7262E02C-F044-40AD-B9E2-8827209B9F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7262E02C-F044-40AD-B9E2-8827209B9F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7262E02C-F044-40AD-B9E2-8827209B9F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7262E02C-F044-40AD-B9E2-8827209B9F9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
