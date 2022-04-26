@@ -7,6 +7,7 @@
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Version>1.0.0.3</Version>
+    <AssemblyName>SerilogViewer</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
