@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SerilogViewer\SerilogViewer.csproj" />
+    <ProjectReference Include="..\SerilogViewer_NET\SerilogViewer_NET.csproj" />
   </ItemGroup>
 
 </Project>
