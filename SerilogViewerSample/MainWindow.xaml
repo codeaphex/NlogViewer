@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:serilogviewer ="clr-namespace:Serilog;assembly=Serilog"
+        xmlns:serilogviewer ="clr-namespace:SerilogViewer;assembly=SerilogViewer"
         xmlns:local="clr-namespace:SerilogViewerSample"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
@@ -47,7 +47,7 @@
 
 
         <GroupBox Grid.Row="3" Header="SerilogViewer">
-            <!--<serilogviewer:SerilogViewer x:Name="logCtrl" TimeWidth="auto" ContextWidth="auto" LevelWidth="auto" ExceptionWidth="auto" MessageWidth="auto" />-->
+            <serilogviewer:SerilogViewer x:Name="logCtrl" TimeWidth="auto" ContextWidth="auto" LevelWidth="auto" ExceptionWidth="auto" MessageWidth="auto" />
         </GroupBox>
     </Grid>
 </Window>
