@@ -6,7 +6,7 @@
     <LangVersion>10.0</LangVersion>
     <UseWPF>true</UseWPF>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
     <Version>$(AssemblyVersion)</Version>
     <Description>SerilogViewer is a simple WPF-control to show Serilog-logs.</Description>
     <PackageTags>Serilog;WPF;log</PackageTags>
