@@ -6,7 +6,12 @@
     <LangVersion>10.0</LangVersion>
     <UseWPF>true</UseWPF>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Version>1.0.0.3</Version>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <Description>SerilogViewer is a simple WPF-control to show Serilog-logs.</Description>
+    <PackageTags>Serilog;WPF;log</PackageTags>
+    <Authors>Tanzi;erizet;codeaphex</Authors>
+    <PackageProjectUrl>https://gitee.com/NewEraTech/Tanzi.Camera</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
