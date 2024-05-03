@@ -9,7 +9,6 @@ using System.Windows;
 
 namespace SerilogViewerSample
 {
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -44,7 +43,7 @@ namespace SerilogViewerSample
             {
                 log.ForContext<MainWindow>().Write(level, tbLogText.Text);
             }
-            else 
+            else
             {
                 log.Write(level, tbLogText.Text);
             }
@@ -60,21 +59,21 @@ namespace SerilogViewerSample
             log.ForContext<MainWindow>().Write(level, tbLogText.Text);
         }
 
-        private void OnLogMessageItemAdded(object o, EventArgs Args )
-       {
-          // Do what you want :)
-          LogEvent logEvent = (SerilogEvent)Args;
-          if( logEvent.Level >= LogEventLevel.Error)
-            SystemSounds.Beep.Play();
-       }
+        private void OnLogMessageItemAdded(object o, EventArgs Args)
+        {
+            // Do what you want :)
+            LogEvent logEvent = (SerilogEvent)Args;
+            if (logEvent.Level >= LogEventLevel.Error)
+                SystemSounds.Beep.Play();
+        }
 
         private void Clear_Click(object sender, RoutedEventArgs e)
         {
-           logCtrl.Clear();
+            logCtrl.Clear();
         }
         private void TopScroll_Click(object sender, RoutedEventArgs e)
         {
-           logCtrl.ScrollToFirst();
+            logCtrl.ScrollToFirst();
         }
         private void BottomScroll_Click(object sender, RoutedEventArgs e)
         {
@@ -121,7 +120,5 @@ namespace SerilogViewerSample
 
             backgroundLogger.Debug("Backgroundtask stopped.");
         }
-
-
     }
 }
